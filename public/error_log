@@ -1,0 +1,14 @@
+[24-Jan-2018 16:24:05 UTC] PHP Warning:  require(/home/registrevocem/public_html/crm/vendor/composer/../../app/Helpers/Functions.php): failed to open stream: No such file or directory in /home/registrevocem/public_html/crm/vendor/composer/autoload_real.php on line 66
+[24-Jan-2018 16:24:05 UTC] PHP Stack trace:
+[24-Jan-2018 16:24:05 UTC] PHP   1. {main}() /home/registrevocem/public_html/crm/public/index.php:0
+[24-Jan-2018 16:24:05 UTC] PHP   2. require() /home/registrevocem/public_html/crm/public/index.php:22
+[24-Jan-2018 16:24:05 UTC] PHP   3. require() /home/registrevocem/public_html/crm/bootstrap/autoload.php:17
+[24-Jan-2018 16:24:05 UTC] PHP   4. ComposerAutoloaderInitf248a65cfbb9d04a6948dfbeb8bcc3c0::getLoader() /home/registrevocem/public_html/crm/vendor/autoload.php:7
+[24-Jan-2018 16:24:05 UTC] PHP   5. composerRequiref248a65cfbb9d04a6948dfbeb8bcc3c0() /home/registrevocem/public_html/crm/vendor/composer/autoload_real.php:56
+[24-Jan-2018 16:24:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/registrevocem/public_html/crm/vendor/composer/../../app/Helpers/Functions.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/registrevocem/public_html/crm/vendor/composer/autoload_real.php on line 66
+[24-Jan-2018 16:24:05 UTC] PHP Stack trace:
+[24-Jan-2018 16:24:05 UTC] PHP   1. {main}() /home/registrevocem/public_html/crm/public/index.php:0
+[24-Jan-2018 16:24:05 UTC] PHP   2. require() /home/registrevocem/public_html/crm/public/index.php:22
+[24-Jan-2018 16:24:05 UTC] PHP   3. require() /home/registrevocem/public_html/crm/bootstrap/autoload.php:17
+[24-Jan-2018 16:24:05 UTC] PHP   4. ComposerAutoloaderInitf248a65cfbb9d04a6948dfbeb8bcc3c0::getLoader() /home/registrevocem/public_html/crm/vendor/autoload.php:7
+[24-Jan-2018 16:24:05 UTC] PHP   5. composerRequiref248a65cfbb9d04a6948dfbeb8bcc3c0() /home/registrevocem/public_html/crm/vendor/composer/autoload_real.php:56

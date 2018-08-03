@@ -1,0 +1,35 @@
+
+//  css Bootstrap
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// css FontAwesome
+@import "../../../../node_modules/font-awesome/scss/font-awesome.scss";
+
+// gentelella plugins
+@import "../../../../node_modules/gentelella/vendors/nprogress/nprogress.scss";
+// @import "../../../../node_modules/gentelella/vendors/animate.css/animate.scss";
+@import "../../../../node_modules/gentelella/vendors/iCheck/skins/flat/blue.scss";
+@import "../../../../node_modules/gentelella/vendors/dropzone/dist/dropzone.scss";
+@import "../../../../node_modules/gentelella/vendors/morris.js/morris.scss";
+@import "../../../../node_modules/gentelella/src/scss/custom.scss";
+@import "../../../../node_modules/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.scss";
+@import "../../../../node_modules/animate.css/animate.scss";
+
+// plugin confirm jquery
+@import "../../../../node_modules/jquery-confirm/css/jquery-confirm.scss";
+
+// plugin toasts
+@import "../../../../node_modules/jquery-toast-plugin/src/jquery.toast.scss";
+
+// templates
+@import "templates/vars";
+@import "templates/toasts";
+
+// pages
+@import "pages/error";
+
+
+
+
+
+
